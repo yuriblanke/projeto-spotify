@@ -3,11 +3,8 @@
 // fulfilled
 
 import { MongoClient } from "mongodb";
-import dotenv from "dotenv";
 
-dotenv.config();
-
-const password = process.env.PASSWORD;
+const password = "6WdKJKoFGwvIGkUb";
 
 const URI = `mongodb+srv://yuriblanke:${password}@cluster0.x7rb8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
