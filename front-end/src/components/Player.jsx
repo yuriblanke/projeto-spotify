@@ -82,7 +82,7 @@ const Player = ({
           onClick={() => {
             playPause();
             console.log(
-              "Algumas músicas estão com o arquivo de áudio repetido, afinal a aplicação é apenas para fins de portifólio"
+              "Algumas músicas estão com o arquivo de áudio repetido, afinal a aplicação é apenas para fins de portfólio"
             );
           }}
         />
